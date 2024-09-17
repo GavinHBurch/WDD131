@@ -1,16 +1,7 @@
-:root {
-    --back_color1: #031b35;
-    --back_color2: #084c9e;
-    --back_color3: #8697a0;
-    --accent_color1: #8da4df;
-    --accent_color2: #ffffff;
-    --wild_red: black;
-}
-
 header {
     padding: 0px;
-    background-color: var(--back_color2);
-    border: 1px solid var(--back_color2);
+    background-color: blue;
+    border: 3px solid black;
   }
 
 body {
@@ -23,26 +14,25 @@ body {
 
 footer {
     color: white;
-    background-color: var(--back_color1);
-    border-top: 1px solid var(--back_color1);
-    border-bottom: 4px solid var(--back_color1);
+    padding: 0px;
+    background-color: blue;
+    border: 3px solid black;
     text-align: center;
 }
 
 h1 {
-    font-size: 1.5rem;
-    text-align: center;
+    font-size: 2rem;
+    vertical-align: center;
     padding: 20px;
     color: white;
   }
 
 h2 {
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-family: "Permanent Marker", "Trebuchet MS", "Lucida Sans Unicode",
     "Lucida Grande", "Lucida Sans", Arial, sans-serif;
     padding: 0.5rem;
-    text-align: center;
-    /* margin: 0.5rem auto; */
+    vertical-align: center;
     margin: auto;
     background-color: black;
     color: white;
@@ -51,73 +41,57 @@ h2 {
 }
 
 h3 {
-    font-size: 1rem;
-    text-align: center;
-    padding: 0px;
+    font-size: 2rem;
+    vertical-align: center;
+    padding: 3px;
     color: black;
-    margin: 3rem 1rem 1rem 1rem;
-  }
-
+    margin: auto;
+}
 p {
     padding: 0.5rem;
-    margin: 1rem;
+    margin: 2rem;
 }
 
 nav {
     flex: 1 1 100%;
     display: block;
     color: white;
-    padding: 5px;
+    padding: 1px;
     display: flex;
-    background-color: #4f4c4c;
+    background-color: #333;
     align-items: center;
-}
-      
-nav a {
+  }
+  
+  nav a {
     flex: 1 1 100%;
     display: block;
     color: white;
-    padding: 0.75rem;
+    padding: 0.5rem;
     text-decoration: none;
     text-align: center;
-    font-family: "Permanent Marker", "Trebuchet MS", "Lucida Sans Unicode",
-    "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-}
-      
-nav a:hover {
-    font-weight: 700;
+  }
+  
+  nav a:hover {
+      font-weight: 700;
     color: black;
-    background-color: gray;
-    text-decoration: underline;
-    text-decoration-color: black;
-}
+    background-color: white;
+      text-decoration: underline;
+      text-decoration-color: black;
+  }
 
 div img {
-    width: 150px;
+    width: 40%;
     height: auto;
-    border: 1px solid blue;
-    padding: 2px;
+    border: 3px solid black;
+    padding: 3px;
     box-shadow: 0 0 30px gray;
     float: right;
-    margin: 1rem;
+    margin: 2rem;
 }
-
-hr { 
-    display: block;
-    margin: 0.5em 1rem 0.5rem 1rem;
-    border-style: inset;
-    border-width: 1px;
-  } 
-
-/*-------------------------------------------------*/
-/* Class Selectors                                 */
-/*-------------------------------------------------*/
-
 .grid-container {
     display: grid;
-    /* grid-gap: 10px;
-    width: 1000px; */
     max-width: 100%;
     margin: 0 auto;
     grid-template-columns: 2fr 1fr;
@@ -125,24 +99,23 @@ hr {
 
 .rounded-box1 {
     border-radius: 10px;
-    border: 2px solid black;
+    border: 3px solid black;
     margin: 0.5rem auto;
     grid-column: 1 / 2;
-    height: auto;  
+    height: auto; 
 }
 
 .rounded-box2 {
     border-radius: 10px;
-    border: 2px solid black;
+    border: solid black;
     margin: 0.5rem auto;
     height: auto;  
 }
-
 .img-left {
-    width: 150px;
+    max-width: 40%;
     height: auto;
-    border: 1px solid blue;
-    padding: 2px;
+    border: 3px solid black;
+    padding: 3px;
     box-shadow: 0 0 30px gray;
     float: left;
     margin: 1rem;
