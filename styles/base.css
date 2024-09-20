@@ -124,3 +124,6 @@ div img {
     float: left;
     margin: 1rem;
 }
+section {
+    vertical-align: center;
+}
