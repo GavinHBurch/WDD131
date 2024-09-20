@@ -23,6 +23,7 @@ footer {
 h1 {
     font-size: 2rem;
     vertical-align: center;
+    text-align: center;
     padding: 20px;
     color: white;
   }
@@ -33,6 +34,7 @@ h2 {
     "Lucida Grande", "Lucida Sans", Arial, sans-serif;
     padding: 0.5rem;
     vertical-align: center;
+    text-align: center;
     margin: auto;
     background-color: black;
     color: white;
@@ -43,6 +45,7 @@ h2 {
 h3 {
     font-size: 2rem;
     vertical-align: center;
+    text-align: center;
     padding: 3px;
     color: black;
     margin: auto;
@@ -103,13 +106,14 @@ div img {
     margin: 0.5rem auto;
     grid-column: 1 / 2;
     height: auto; 
+    
 }
 
 .rounded-box2 {
     border-radius: 10px;
     border: solid black;
     margin: 0.5rem auto;
-    height: auto;  
+    height: auto; 
 }
 .img-left {
     max-width: 40%;
