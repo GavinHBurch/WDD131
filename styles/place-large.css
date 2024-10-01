@@ -1,0 +1,55 @@
+@media (min-width: 550px) {
+    main {
+        position: relative;
+        padding: 0rem;
+        background-color: white;
+    }
+        
+    .data, .weather {
+        position: absolute;
+        background-color: white;
+        opacity: 0.8; 
+        color: black;
+        border-radius: 20px;
+        padding: 4rem 5px 10px 5px;
+        margin: 0;
+    }
+    
+    .data {
+        top: 10%;
+        left: 5%;
+        width: 40%;
+    }
+
+    .weather {
+        bottom: 10%;
+        right: 5%;
+        width: 30%;
+    }
+
+    .data h2{
+        background-color: yellow;
+        color: black;
+        position: absolute;
+        right: 25%;
+        bottom: 71%;
+        width: 50%;
+        text-align: center;
+        padding: 0 0 0 1rem;
+    }
+    
+    .weather h2{
+        background-color:yellow;
+        color: black;
+        position: absolute;
+        right: 25%;
+        bottom: 65%;
+        width: 50%;
+        text-align: center;
+        padding: 0 0 0 1rem;
+    }
+    
+    .weather h2::after {
+        display: none;
+    }
+}

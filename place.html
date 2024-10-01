@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="WDD 131 - Place Page for Gavin Burch">
+    <meta name="author" content="Gavin Burch">
+    <meta name="keywords" content="Gavin Burch">
+
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,700&display=swap" rel="stylesheet">
+
+    <script src="scripts/place.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <title>Place Page - Gavin Burch</title>
+</head>
+<body>
+    <header>
+        <h1>El Salvador</h1>
+    </header>
+    
+    <main>
+        <figure>
+            <picture class="heroImage">
+                <source srcset="images/pupusas.jpg" media="(min-width: 550px)">
+                <img src="images/pupusas.jpg" width="614" height="768" alt="Bolivia Child and Alpaca">
+            </picture>
+            <figcaption>Photo by <a href="https://x.com/onlinetravelcon">Barbara Walsh Kumm</a> on <a href="https://deliciousfoodandwine.com/pupusas-from-el-salvador-worth-every-calorie/">deliciousfoodandwine</a>
+            </figcaption>
+        </figure>
+
+        <div class="data">
+            <h2 class="pad">
+                Data
+            </h2>
+
+            <p>Area:</p>
+            <span>8,124 sq.mi.</span>
+
+            <p>Population:</p>
+            <span>6,336,000 (est.)</span>
+            
+            <p>Capital:</p>
+            <span>San Salvador</span>
+            
+            <p>Currency:</p>
+            <span>El Salvadoran Colon</span>
+
+            <p>Time Zone:</p>
+            <span>GMT-6</span>
+
+            <p>Calling Code:</p>
+            <span>+503</span>
+
+            <p>Internet TLD:</p>
+            <span>.sv</span>
+        </div>
+
+        <div class="weather">
+            <h2>
+                Weather
+            </h2>
+
+            <p>Temperature:</p>
+            <span id="temp"></span>
+
+            <p>Conditions:</p>
+            <span id="condition">Partly Cloudy</span>
+            
+            <p>Wind:</p>
+            <span id="wind">1.86 km/h</span>
+            
+            <p>Wind Chill:</p>
+            <span id="chill">--</span>
+
+            <div id="chill-button">
+                <button>Calculate Wind Chill</button>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p id="copywrite"></p>
+        <p id="modified"></p>
+    </footer>
+</body>
+</html>
