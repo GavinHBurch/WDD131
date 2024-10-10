@@ -136,7 +136,7 @@ function createTempleCard(filteredTemples, pagename) {
 	document.querySelector("#pagename").innerHTML="";
 
 	let h2Title = document.createElement("h2");
-	h2Title.innerHTML = `<h2 class="stdlf">${pagename}</h2>`;
+	h2Title.innerHTML = `<h2 class="asdf">${pagename}</h2>`;
 	document.querySelector("#pagename").appendChild(h2Title);
 
 	filteredTemples.forEach(temple => {
