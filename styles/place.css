@@ -93,3 +93,7 @@ figcaption {
 .pad {
     padding-bottom: 1rem;
 }
+:root {
+    --back_color1: blue;
+    --back_color2: black;
+}
