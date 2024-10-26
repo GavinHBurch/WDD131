@@ -1,0 +1,283 @@
+* {
+    margin-bottom: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    font-size: 1rem;
+    text-align: left;
+    margin-top: 1rem;
+    margin-bottom: .2rem;
+}
+
+h3 {
+    margin: 0.5rem;
+    font-size: 1rem;
+    text-align: center;
+    color: blue;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    display: block;
+    color: red;
+    border: none;
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    margin-right: 0.5rem;
+    justify-content: center;
+}
+
+header .center {
+    width:400px;
+    height: auto;
+}
+
+main {
+    padding: 1rem;
+    background-color: white;
+    min-width: 400px;
+    width: 100%;
+}
+
+footer {
+    padding: 1rem;
+    margin-bottom: 3rem;
+    color: white;
+    background-color: navy;
+    text-align: center;
+}
+
+nav {
+    justify-content:center;
+}
+
+nav ul, li {
+    display: block;
+    flex: 1 1 100%;
+    background-color: lightgoldenrodyellow;
+    margin: 0 1rem 1rem 1rem;
+}
+
+table, th, td, tr {
+    border: 2px solid;
+    padding: 2px;
+}
+
+table {
+    width: 100%;
+}
+
+ul {
+    margin-top: 0;
+    margin-left: 1.5rem;
+}
+
+
+#filtermenu {
+    display: flex;
+	font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.5rem .75rem;
+	color: black;
+}
+
+#filtermenu::before {
+	content: "☰";
+}
+
+#filtermenu.show {
+    flex-direction: column;
+}
+
+#filtermenu.show::before {
+	content: "❎";
+}
+
+#submit {
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: lightgoldenrodyellow;
+    border-width: 1px;
+    margin: 1rem;
+    padding: .2rem;
+}
+
+
+.boldbox {
+    border: 3px solid black;
+    padding: 3px;
+    text-align: center;
+    margin: 1rem auto 1rem auto;
+    font-weight: bold;
+}
+
+.box {
+    border: 3px solid black;
+    padding: 3px;
+    text-align: center;
+    margin: 1rem auto 1rem auto;
+}
+
+.nobox {
+    text-align: center;
+    margin: 1rem auto 1rem auto;
+    font-weight: bold;
+}
+
+.filtering {
+    list-style: none;
+    margin: 0;
+    max-width: 550px;
+    display: none;
+}
+
+.filtering.show {
+    list-style: none;
+    margin: 0;
+    max-width: 450px;
+    display: block;
+}
+
+.filtering a {
+    display: block;
+    padding: 0.25rem 1rem;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    transition: 0.5s;
+    font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.filtering a:hover a:active {
+    color: white;
+}
+
+.notes-container, .papers-container, .rec-container, .others-container, .dac-container {
+    display: grid;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.papers-container {
+    grid-template-columns: auto auto auto auto;
+    border-color: blue;
+}
+.notes-container {
+    grid-template-columns: auto auto auto;
+    border-color: red;
+}
+.dac-container {
+    grid-template-columns: auto auto;
+    border-color: lightgoldenrodyellow;
+}
+.rec-container {
+    grid-template-columns: auto auto;
+    border-color: lightgreen;
+}
+.others-container {
+    grid-template-columns: auto auto auto;
+    border-color: orange;
+}
+
+.item1 {
+    text-align: center;
+}
+
+.itempaper {
+    background-color: gold;
+    text-align: center;
+}
+
+.itemtech {
+    background-color: orange;
+    text-align: center;
+}
+
+.itemsig {
+    background-color: lightblue;
+    text-align: center;
+}
+
+.itemrev {
+    text-align: center;
+}
+
+.item2 {
+    grid-column-start: 1;
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+.navpane {
+    margin-top: 1rem;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    text-align: center;
+}
+
+.debug {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contact a {
+    color: lightgoldenrodyellow;
+}
+
+.contact a:hover a:active{
+    color: skyblue;
+}
+
+#css-src {
+    margin-top: 0;
+}
+
+.arimo {
+    font-family: "Arimo", sans-serif;
+}
+
+.roboto {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.name {
+    margin-bottom: 1rem;
+}
+
+.email {
+    margin-bottom: 2rem;
+}

@@ -1,0 +1,106 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Custodial Training">
+    <meta name="author" content="Gavin Burch">
+
+    <link rel="stylesheet" href="styles/alpine.css">
+    <link rel="stylesheet" href="styles/alpine-large.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    
+
+    <script src="scripts/getdates.js" defer></script>
+    <title>Custodial Training</title>
+</head>
+<body>
+    <header>
+        <div class="alpine-logo">
+            <a href="./index.html">
+            <img class="center" src="images/alpine-logo.png" width="400" height="150" alt="Alpine Logo">
+            </a>
+            <h1 class="roboto">Alpine School District Custodian Training</h1>
+        </div>
+
+        <div class="navpane">
+            <nav class="navigation">
+                <ul class="navigation">
+                    <li><a href="./index.html"            id="home">    Home           </a></li>
+                    <li><a href="./training-feedback.html" id="training"> Custodian Training Feedback</a></li>
+                    <li><a href="./gavinb.html"           id="cliff">   About Gavin    </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <div>
+            <h2>
+                Alpine District - Training Feedback
+            </h2>
+
+            <p>
+                Alpine School District Custodian Training Feedback
+            </p>
+
+            <p>
+                To request training content and scheuling information, please complete the following form:
+            </p>
+            <br>
+        </div>
+        
+        <form method="get">
+            <div class="name">
+                <label for="name" aria-label="Your Name">Your Name</label>
+                <input type="text" id="name" name="name" value="" required>
+            </div>
+
+            <div class="email">
+                <label for="email" aria-label="You email address">Your Email Address</label>
+                <input type="text" id="email" name="email" value="" required>
+            </div>
+
+            <div class="courses">
+                <label aria-label="Select courses which interest you">Which courses might interest you?</label>
+                <p>(Check all that apply)?</p>
+
+                <input type="checkbox" id="course1" name="course1" value="" aria-label="Custodial">
+                <label for="course1">Custodial Job</label><br>
+
+                <input type="checkbox" id="course2" name="course2" value="" aria-label="HVAC">
+                <label for="course2">HVAC Maintenance</label><br>
+
+                <input type="checkbox" id="course3" name="course3" value="" aria-label="Plumbing">
+                <label for="course3">Plumbing Maintenance</label><br>
+
+                <input type="checkbox" id="course4" name="course4" value="" aria-label="Electrical">
+                <label for="course4">Electrical Maintenance</label><br>
+                
+                <input type="checkbox" id="course5" name="course5" value="" aria-label="Pest Control">
+                <label for="course5">Pest Control</label><br>
+                                
+                <input type="checkbox" id="course6" name="course6" value="" aria-label="Other Training">
+                <label for="course6">Other Training</label><br>
+
+                <input type="submit" name="submit" id="submit" value="Submit Training Information Request" aria-label="Submit Request">
+            </div>
+        </form>
+            
+    </main>
+
+    <footer class="contact">
+        <p>To request information about Alpine District Custodial Training,
+            <a href="mailto:gburch@alpinedistrict.org">
+            gburch1@alpinedistrict.com</a>
+        </p>
+
+        <p id="copywrite"></p>
+        <p id="modified"></p>
+    </footer>
+</body>
+</html>
